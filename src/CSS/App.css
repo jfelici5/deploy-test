@@ -23,7 +23,7 @@ text-decoration: none;
 
 .nav-conts{
   height: 8vh;
-  background-color: transparent;
+  background-color: maroon;
 }
 
 .collapse{
@@ -34,9 +34,6 @@ text-decoration: none;
 .link-text{
   color: white;
 }
-
-
-
 
 .grid-top {
   display: grid;
