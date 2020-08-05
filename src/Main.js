@@ -63,7 +63,7 @@ export default function Main(){
       
         <a href = "#" className = "active">HOME</a>
         <a href="/#about">ABOUT</a>
-        <a href="/#upcoming">SHOWS</a>
+        <a href="/#upcoming">POOPS</a>
         <a href="/#members">MEMBERS</a>
         <a href="/#music">MUSIC</a>
         <a href="/#media">MEDIA</a>
