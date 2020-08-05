@@ -25,7 +25,7 @@ import "./CSS/App.css"
 import './CSS/Gallery.css'
 import $ from "jquery";
 import {Switch, Route} from 'react-router-dom'
-import Main from './App'
+import Main from './Main'
 
 export default function Gallery (){
 
