@@ -7,7 +7,6 @@ import './CSS/images.css';
 import './CSS/Videos.css'
 import logo from './imagesmisc/finallogopng.png';
 import $ from "jquery";
-import {Route, Switch} from 'react-router-dom'
 import {Navbar, Nav} from 'react-bootstrap'
 
 
