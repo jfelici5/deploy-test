@@ -206,10 +206,21 @@ nav a:hover
   z-index: 10;
 }
 
-nav a.active{
+nav a:active{
   font-weight: bold;
   background-color: maroon;
 }
+
+.active-two{
+  font-weight: bold;
+  background-color: maroon;
+}
+
+nav a.active-three{
+  font-weight: bold;
+  background-color: black !important;
+}
+
 nav a:link{
   display: flex;
   justify-content: center;
