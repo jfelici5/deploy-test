@@ -24,7 +24,8 @@ import {Navbar, Nav} from 'react-bootstrap'
 import "./CSS/App.css"
 import './CSS/Gallery.css'
 import $ from "jquery";
-import {Switch, Route} from 'react-router-dom'
+import {Switch, Route, Link} from 'react-router-dom'
+import {HashLink} from 'react-router-hash-link'
 import Main from './Main'
 
 export default function Gallery (){
@@ -38,7 +39,6 @@ export default function Gallery (){
         });
       });
       
-  
   return(
     <div>
     <div className = "scroller" id = "galler-home">
@@ -63,18 +63,18 @@ export default function Gallery (){
         GALLERY
         </h1>
     </div>
-        <nav className = "container-holder" id = "top-menu">
+        <section className = "container-holder" id = "top-menu">
         <nav className="et-hero-tabs-container" id = "top-menu">
-            <a href="/">HOME</a>
-            <a href="/#about" >ABOUT</a>
-            <a href="/#upcoming">SHOWS</a>
-            <a href="/#members">MEMBERS</a>
-            <a href="/#music">MUSIC</a>
-            <a href="/#media">MEDIA</a>
-            <a href="/gallery" className = "active">GALLERY</a>
+            <HashLink to = "/#home" className = "active-three">HOME</HashLink>
+            <HashLink to = "/#about">ABOUT</HashLink>
+            <HashLink to = "/#upcoming">SHOWS</HashLink>
+            <HashLink to = "/#members">MEMBERS</HashLink>
+            <HashLink to = "/#music">MUSIC</HashLink>
+            <HashLink to = "/#media">MEDIA</HashLink>
+            <HashLink to = "/gallery#gallery" className = "active-two">GALLERY</HashLink>
             <a href = "https://docs.google.com/forms/d/e/1FAIpQLSeUO7YjUXzZ5q3gLureYPazT-AXDPB2MdF02i3I0leFc4jQFw/viewform?usp=sf_link" target="_blank">BOOK US</a>
         </nav>
-        </nav> 
+        </section> 
     </section>
     </div>
     <div className = "et-main">

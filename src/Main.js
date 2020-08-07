@@ -8,6 +8,7 @@ import './CSS/Videos.css'
 import logo from './imagesmisc/finallogopng.png';
 import $ from "jquery";
 import {Navbar, Nav} from 'react-bootstrap'
+import {HashLink} from 'react-router-hash-link'
 
 
 export default function Main(){
@@ -55,22 +56,22 @@ export default function Main(){
     </Nav>
   </Navbar.Collapse>
 </Navbar>         
-  <section className="et-hero-tabs" id ='#'>
+  <section className="et-hero-tabs" id ='home'>
 
-    <nav className = "container-holder" id = "top-menu">
+    <section className = "container-holder" id = "top-menu">
     
       <nav className="et-hero-tabs-container" id = "top-menu">
       
-        <a href = "#" className = "active">HOME</a>
+        <a href = "/#home" className = "active">HOME</a>
         <a href="/#about">ABOUT</a>
         <a href="/#upcoming">SHOWS</a>
         <a href="/#members">MEMBERS</a>
         <a href="/#music">MUSIC</a>
         <a href="/#media">MEDIA</a>
-        <a href="/gallery">GALLERY</a>
+        <HashLink to = "/gallery#gallery">GALLERY</HashLink>
         <a href = "https://docs.google.com/forms/d/e/1FAIpQLSeUO7YjUXzZ5q3gLureYPazT-AXDPB2MdF02i3I0leFc4jQFw/viewform?usp=sf_link" target="_blank">BOOK US</a>
       </nav>
-    </nav> 
+    </section> 
   </section>
 </div>
 <main className="et-main">
