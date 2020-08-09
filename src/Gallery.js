@@ -24,9 +24,7 @@ import {Navbar, Nav} from 'react-bootstrap'
 import "./CSS/App.css"
 import './CSS/Gallery.css'
 import $ from "jquery";
-import {Switch, Route, Link} from 'react-router-dom'
 import {HashLink} from 'react-router-hash-link'
-import Main from './Main'
 
 export default function Gallery (){
 
@@ -79,27 +77,27 @@ export default function Gallery (){
     </div>
     <div className = "et-main">
     <div className = "gallery-content">
-        <img src = {sydney}></img>
-        <img src = {group15}></img>
-        <img src = {group2}></img>
-        <img src = {group1}></img>
-        <img src = {group6}></img>
-        <img src = {group13}></img>
-        <img src = {steven}></img>
-        <img src = {boys}></img>
-        <img src = {group17}></img>
-        <img src = {group3}></img>
-        <img src = {group9}></img>
-        <img src = {group7}></img>
-        <img src = {zoe}></img>
-        <img src = {group4}></img>
-        <img src = {group5}></img>
-        <img src = {group14}></img>
-        <img src = {group8}></img>
-        <img src = {group12}></img>
-        <img src = {group11}></img>
-        <img src = {group10}></img>
-        <img src = {group16}></img>
+        <img src = {sydney} alt = ''></img>
+        <img src = {group15} alt = ''></img>
+        <img src = {group2} alt = ''></img>
+        <img src = {group1} alt = ''></img>
+        <img src = {group6} alt = ''></img>
+        <img src = {group13} alt = ''></img>
+        <img src = {steven} alt = ''></img>
+        <img src = {boys} alt = ''></img>
+        <img src = {group17} alt = ''></img>
+        <img src = {group3} alt = ''></img>
+        <img src = {group9} alt = ''></img>
+        <img src = {group7} alt = ''></img>
+        <img src = {zoe} alt = ''></img>
+        <img src = {group4} alt = ''></img>
+        <img src = {group5} alt = ''></img>
+        <img src = {group14} alt = ''></img>
+        <img src = {group8} alt = ''></img>
+        <img src = {group12} alt = ''></img>
+        <img src = {group11} alt = ''></img>
+        <img src = {group10} alt = ''></img>
+        <img src = {group16} alt = ''></img>
 
     </div>
     </div>
