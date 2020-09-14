@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Component} from 'react'
 import './CSS/App.css';
 import './CSS/People.css';
 import './CSS/Albums.css';
@@ -7,8 +7,9 @@ import './CSS/images.css';
 import './CSS/Videos.css'
 import logo from './imagesmisc/finallogopng.png';
 import $ from "jquery";
+import {Route, Switch} from 'react-router-dom'
 import {Navbar, Nav} from 'react-bootstrap'
-import {HashLink} from 'react-router-hash-link'
+import {Gallery} from './Gallery'
 
 
 export default function Main(){
@@ -41,37 +42,10 @@ export default function Main(){
 <div data-spy="scroll" data-target=".nav">
 
 <div className = "scroller"> 
-<Navbar className = "bsnavbar" sticky = "top" expand="sm">
-  <Navbar.Toggle className = "nav-conts"/>
-  <Navbar.Collapse className = ".collapse"id="basic-navbar-nav">
-    <Nav className="mr-auto">
-      <Nav.Link href="/#"data-toggle="collapse"data-target=".navbar-collapse.show">Home</Nav.Link>
-      <Nav.Link className = "link-text"href="/#about"data-toggle="collapse"data-target=".navbar-collapse.show">About</Nav.Link>
-      <Nav.Link className = "link-text"href="/#upcoming"data-toggle="collapse"data-target=".navbar-collapse.show">Upcoming</Nav.Link>
-      <Nav.Link className = "link-text"href="/#members"data-toggle="collapse"data-target=".navbar-collapse.show">Members</Nav.Link>
-      <Nav.Link className = "link-text"href="/#music"data-toggle="collapse"data-target=".navbar-collapse.show">Music</Nav.Link>
-      <Nav.Link className = "link-text" href="/#media"data-toggle="collapse"data-target=".navbar-collapse.show">Media</Nav.Link>
-      <Nav.Link className = "link-text"href="/gallery"data-toggle="collapse"data-target=".navbar-collapse.show">Gallery</Nav.Link>
-      <Nav.Link className = "link-text" href="https://docs.google.com/forms/d/e/1FAIpQLSeUO7YjUXzZ5q3gLureYPazT-AXDPB2MdF02i3I0leFc4jQFw/viewform?usp=sf_link" target="_blank">Book Us</Nav.Link>
-    </Nav>
-  </Navbar.Collapse>
-</Navbar>         
-  <section className="et-hero-tabs" id ='home'>
 
-    <section className = "container-holder" id = "top-menu">
-    
-      <nav className="et-hero-tabs-container" id = "top-menu">
-      
-        <a href = "/#home" className = "active">HOME</a>
-        <a href="/#about">ABOUT</a>
-        <a href="/#upcoming">SHOWS</a>
-        <a href="/#members">MEMBERS</a>
-        <a href="/#music">MUSIC</a>
-        <a href="/#media">MEDIA</a>
-        <HashLink to = "/gallery#gallery">GALLERY</HashLink>
-        <a href = "https://docs.google.com/forms/d/e/1FAIpQLSeUO7YjUXzZ5q3gLureYPazT-AXDPB2MdF02i3I0leFc4jQFw/viewform?usp=sf_link" target="_blank">BOOK US</a>
-      </nav>
-    </section> 
+  <section className="et-hero-tabs" id ='#'>
+
+     
   </section>
 </div>
 <main className="et-main">
@@ -244,7 +218,6 @@ export default function Main(){
                 </div> 
               </div>
             </div>
-          
             <div className = "luke">
               <div className = "overlay-two">
                 <div className = "text">
@@ -272,8 +245,8 @@ export default function Main(){
                 </div> 
               </div>
             </div>
-          </div>
-          <div className = "grid-top">
+            </div>
+            <div className = "grid-top">
             <div className = "nicole">
               <div className = "overlay-two">
                 <div className = "text">

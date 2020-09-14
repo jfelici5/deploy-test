@@ -17,12 +17,13 @@ text-decoration: none;
   position: fixed;
   width: 100%;
   background-color: maroon;
-  opacity: 100%;
+  opacity: 98%;
+  overflow-x: hidden;
 }
 
 .nav-conts{
   height: 8vh;
-  background-color: maroon;
+  background-color: transparent;
 }
 
 .collapse{
@@ -33,6 +34,9 @@ text-decoration: none;
 .link-text{
   color: white;
 }
+
+
+
 
 .grid-top {
   display: grid;
@@ -177,6 +181,20 @@ nav a:hover
   margin: 0 auto;
 }
 
+.realnav{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background: transparent;
+  z-index: 10;
+  margin: 0 auto;
+}
+
+
 .container-holder{
   display: flex;
   flex-direction: column;
@@ -191,21 +209,10 @@ nav a:hover
   z-index: 10;
 }
 
-nav a:active{
+nav a.active{
   font-weight: bold;
   background-color: maroon;
 }
-
-.active-two{
-  font-weight: bold;
-  background-color: maroon;
-}
-
-nav a.active-three{
-  font-weight: bold;
-  background-color: black !important;
-}
-
 nav a:link{
   display: flex;
   justify-content: center;

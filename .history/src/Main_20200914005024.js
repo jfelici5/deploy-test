@@ -273,50 +273,6 @@ export default function Main(){
               </div>
             </div>
           </div>
-          <div className = "grid-top">
-            <div className = "nicole">
-              <div className = "overlay-two">
-                <div className = "text">
-                <h6 className = "member-title"><strong>NICOLE NOBREGA '23</strong> <br></br></h6>
-                  <h6 className = "member-info">
-                  <strong>Hometown:</strong> Buffalo, NY<br></br>
-                  <strong>Majors/Minors:</strong> Biology, Spanish<br></br>
-                  <strong>Voice Part:</strong> Alto <br></br>
-                  <strong>Year Joined AH:</strong> Fall 2020<br></br>
-                  <strong>Fun Fact:</strong> My first concert when I was little was Hannah Montana and the Jonas Brothers
-                  </h6>
-                </div> 
-              </div>
-            </div>
-            <div className = "ally">
-              <div className = "overlay-two">
-                <div className = "text">
-                <h6 className = "member-title"><strong>ALLY HOWARD '24</strong> <br></br></h6>
-                  <h6 className = "member-info">
-                  <strong>Hometown:</strong>Syracuse, NY<br></br>
-                  <strong>Majors/Minors:</strong> <br></br>
-                  <strong>Voice Part:</strong>  Bass <br></br>
-                  <strong>Year Joined AH:</strong> Fall 2020<br></br>
-                  <strong>Fun Fact:</strong> I tried out for America's Got Talent twice
-                  </h6>
-                </div> 
-              </div>
-            </div>
-            <div className = "jacq">
-              <div className = "overlay-two">
-                <div className = "text">
-                <h6 className = "member-title"><strong>JACQUELINE MALIZIA '24</strong> <br></br></h6>
-                  <h6 className = "member-info">
-                  <strong>Hometown:</strong> Connecticut<br></br>
-                  <strong>Majors/Minors:</strong> Undecided<br></br>
-                  <strong>Voice Part:</strong>  Bass <br></br>
-                  <strong>Year Joined AH:</strong> Spring 2020<br></br>
-                  <strong>Fun Fact:</strong> I lived in Tokyo and Dublin
-                  </h6>
-                </div> 
-              </div>
-            </div>
-            </div>
         </section>
       </div>
   <main className = "et-main">
