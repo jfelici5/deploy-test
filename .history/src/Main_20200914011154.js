@@ -41,21 +41,16 @@ export default function Main(){
 <div data-spy="scroll" data-target=".nav">
 
 <div className = "scroller"> 
-<Navbar className = "bsnavbar" sticky = "top">
-  <Navbar.Toggle className = "nav-conts"/>
-  <Navbar.Collapse className = ".collapse"id="basic-navbar-nav">
-    <Nav className="mr-auto">
-      <Nav.Link href="/#"data-toggle="collapse"data-target=".navbar-collapse.show">Home</Nav.Link>
-      <Nav.Link className = "link-text"href="/#about"data-toggle="collapse"data-target=".navbar-collapse.show">About</Nav.Link>
-      <Nav.Link className = "link-text"href="/#upcoming"data-toggle="collapse"data-target=".navbar-collapse.show">Upcoming</Nav.Link>
-      <Nav.Link className = "link-text"href="/#members"data-toggle="collapse"data-target=".navbar-collapse.show">Members</Nav.Link>
-      <Nav.Link className = "link-text"href="/#music"data-toggle="collapse"data-target=".navbar-collapse.show">Music</Nav.Link>
-      <Nav.Link className = "link-text" href="/#media"data-toggle="collapse"data-target=".navbar-collapse.show">Media</Nav.Link>
-      <Nav.Link className = "link-text"href="/gallery"data-toggle="collapse"data-target=".navbar-collapse.show">Gallery</Nav.Link>
-      <Nav.Link className = "link-text" href="https://docs.google.com/forms/d/e/1FAIpQLSeUO7YjUXzZ5q3gLureYPazT-AXDPB2MdF02i3I0leFc4jQFw/viewform?usp=sf_link" target="_blank">Book Us</Nav.Link>
-    </Nav>
-  </Navbar.Collapse>
-</Navbar>         
+<nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Logo</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="/">Sass</a></li>
+        <li><a href="/gallery#gallery">Components</a></li>
+        <li><a href="/#members">JavaScript</a></li>
+      </ul>
+    </div>
+  </nav>     
   <section className="et-hero-tabs" id ='home'>
 
     <section className = "container-holder" id = "top-menu">

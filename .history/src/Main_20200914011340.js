@@ -41,7 +41,7 @@ export default function Main(){
 <div data-spy="scroll" data-target=".nav">
 
 <div className = "scroller"> 
-<Navbar className = "bsnavbar" sticky = "top">
+<Navbar className = "bsnavbar" sticky = "top" expand="sm">
   <Navbar.Toggle className = "nav-conts"/>
   <Navbar.Collapse className = ".collapse"id="basic-navbar-nav">
     <Nav className="mr-auto">
