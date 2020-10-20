@@ -99,20 +99,20 @@ export default function Main(){
     </div>
   </div>
 </main>
+<main className = "et-main-upcoming">
+<div className = "content-holder">
 <div className = "scroller" id = "upcoming">
   <section className="et-slide-upcoming" id="upcoming">
-    <div className = "upcoming-holder">
-    <h1 className = "shows-heading-text">UPCOMING SHOWS</h1>
+    <h1 className = "upcoming-heading-text">UPCOMING SHOWS</h1>
     <p>
       There are currently no upcoming shows. Check back later for more.
     </p>
-    <div className = "jumper-holder">
-    <img src = {jumper} className = "jumper"></img>
-    </div>
-    </div>
+
   </section>
 </div>
-  <main className="et-main-people">
+</div>
+</main>
+<main className="et-main-people">
   <div className ="content-holder">
     <div className = "scroller" id = "members">
       <section className="slideshow" id="members">
@@ -286,8 +286,8 @@ export default function Main(){
                 <h6 className = "member-title"><strong>ALLY HOWARD '24</strong> <br></br></h6>
                   <h6 className = "member-info">
                   <strong>Hometown:</strong>Syracuse, NY<br></br>
-                  <strong>Majors/Minors:</strong> <br></br>
-                  <strong>Voice Part:</strong>  Bass <br></br>
+                  <strong>Majors/Minors:</strong>Neuroscience <br></br>
+                  <strong>Voice Part:</strong>  Alto <br></br>
                   <strong>Year Joined AH:</strong> Fall 2020<br></br>
                   <strong>Fun Fact:</strong> I tried out for America's Got Talent twice
                   </h6>
@@ -299,11 +299,11 @@ export default function Main(){
                 <div className = "text">
                 <h6 className = "member-title"><strong>JACQUELINE MALIZIA '24</strong> <br></br></h6>
                   <h6 className = "member-info">
-                  <strong>Hometown:</strong> Connecticut<br></br>
+                  <strong>Hometown:</strong> Old Lyme, CT<br></br>
                   <strong>Majors/Minors:</strong> Undecided<br></br>
-                  <strong>Voice Part:</strong>  Bass <br></br>
-                  <strong>Year Joined AH:</strong> Spring 2020<br></br>
-                  <strong>Fun Fact:</strong> I lived in Tokyo and Dublin
+                  <strong>Voice Part:</strong> Alto <br></br>
+                  <strong>Year Joined AH:</strong> Fall 2020<br></br>
+                  <strong>Fun Fact:</strong> 
                   </h6>
                 </div> 
               </div>
@@ -311,7 +311,10 @@ export default function Main(){
             </div>
         </section>
       </div>
-  <main className = "et-main">
+      </div>
+  </main>
+  <main className = "et-main-reper">
+  <div className = "content-holder">
   <div className = "scroller" id = "music">      
   <section className="panda" id="music">
   
@@ -408,7 +411,10 @@ export default function Main(){
           
   </section>
   </div>
+  </div>
   </main>
+  <main className = "et-main-video">
+    <div className = "content-holder">
   <div className = "scroller" id = "media">
   <section className="et-slide" id = "media">
   <h1 className = "about-heading-text">
